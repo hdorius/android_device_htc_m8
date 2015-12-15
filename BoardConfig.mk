@@ -60,3 +60,47 @@ TARGET_LIBINIT_DEFINES_FILE := device/htc/m8/init/init_m8.cpp
 
 # Inherit from the proprietary version
 -include vendor/htc/m8/BoardConfigVendor.mk
+
+#WITH_DEXPREOPT := true
+#WITH_DEXPREOPT_PIC :=true
+#WITH_DEXPREOPT_COMP :=true
+
+# Enable Minikin text layout engine (will be the default soon)
+# USE_MINIKIN := true
+
+# Block_Build
+# Bliss_Build_Block := 1 
+
+# BlissPop Config Flags
+BLISS_WIPE_CACHES := 1
+BLISSIFY := true
+BLISS_O3 := false
+BLISS_STRICT := false
+BLISS_GRAPHITE := false
+BLISS_KRAIT := true
+BLISS_PIPE := true
+# FLOOP_NEST_OPTIMIZE := true
+# ENABLE_GCCONLY := true
+# TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+# FAST_MATH := true
+# ENABLE_MODULAR_O3 := true
+# ENABLE_LTO := true
+# Link_Time_Optimizations := true
+# TARGET_USE_ION_COMPAT := true
+# TARGET_USE_KRAIT_PLD_SET := true
+TARGET_TC_ROM :=5.2-linaro
+TARGET_TC_KERNEL := 4.8
+#TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+TARGET_ENABLE_UKM := true
+# BLISS_BUILDTYPE := OFFICIAL
+# BLISS_DEVELOPER := fizbanrapper
+# LZMA and notes - comment out the line if you can't figure it out...
+# need - https://github.com/peterjc/backports.lzma
+# specifically, read - https://github.com/peterjc/backports.lzma/blob/master/README.md
+# - Also make sure you have python-dev installed.
+# WITH_LZMA_OTA := true
+
+
+#SaberMod
+-include vendor/bliss/config/sm.mk
