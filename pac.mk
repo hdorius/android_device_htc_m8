@@ -23,3 +23,6 @@ $(call inherit-product, vendor/pac/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/pac/config/common_full_phone.mk)
 
 PRODUCT_NAME := pac_m8
+
+# Boot animation
+PAC_BOOTANIMATION_NAME := 1080
