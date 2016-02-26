@@ -36,12 +36,6 @@
     "revision":    "pac-6.0"
   },
   {
-    "remote":	   "pac",
-    "repository":  "android_hardware_sony_thermanager",
-    "target_path": "hardware/sony/thermanager",
-    "revision":    "pac-6.0"
-  },
-  {
     "remote":	   "pic",
     "repository":  "proprietary_vendor_htc",
     "target_path": "vendor/htc",
