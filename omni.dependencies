@@ -20,7 +20,15 @@
     "target_path": "hardware/sony/thermanager"
   },
   {
+    "remote":       "github",
     "repository": "TheMuppets/proprietary_vendor_htc",
     "target_path": "vendor/htc"
+    "revision":     "cm-13.0"
+  },
+    {
+    "remote":       "omnirom",
+    "repository":   "android_device_qcom_caf-sepolicy",
+    "target_path":  "device/qcom/caf-sepolicy",
+    "revision":     "android-6.0"
   }
 ]
