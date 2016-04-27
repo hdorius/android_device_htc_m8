@@ -60,3 +60,5 @@ TARGET_LIBINIT_DEFINES_FILE := device/htc/m8/init/init_m8.cpp
 
 # Inherit from the proprietary version
 -include vendor/htc/m8/BoardConfigVendor.mk
+MAX_EGL_CACHE_KEY_SIZE := 12*1024
+MAX_EGL_CACHE_SIZE := 2048*1024
