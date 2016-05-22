@@ -1,0 +1,98 @@
+[
+  {
+    "remote": "github",	
+    "repository": "Team-M8/android_device_htc_m8-common",
+    "target_path": "device/htc/m8-common",
+    "revision": "cm-13.0"
+  },
+{
+    "remote": "github",	
+    "repository": "Team-M8/android_device_htc_m8",
+    "target_path": "device/htc/m8",
+    "revision": "cm-13.0"
+  },
+  {
+    "remote": "github",
+    "repository": "Team-M8/android_device_htc_msm8974-common",
+    "target_path": "device/htc/msm8974-common",
+    "revision": "cm-13.0"
+  },
+  {
+    "remote": "github",
+    "repository": "Team-M8/android_kernel_htc_msm8974",
+    "target_path": "kernel/htc/msm8974",
+"revision": "M"
+  },
+  {
+    "remote": "github",
+    "repository": "CyanogenMod/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+  "revision": "cm-13.0"
+  },
+  {
+    "remote": "github",
+    "repository": "Team-M8/proprietary_vendor_htc",
+    "target_path": "vendor/htc",
+"revision": "cm-13.0"
+  },
+ {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_display-caf-msm8974",
+    "target_path": "hardware/qcom/display-caf-msm8974",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_media-caf-msm8974",
+    "target_path": "hardware/qcom/media-caf-msm8974",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_audio-caf-msm8974",
+    "target_path": "hardware/qcom/audio-caf-msm8974",
+    "revision": "android-6.0"
+  },
+{
+    "remote": "omnirom",
+    "repository": "vendor_qcom_opensource_display-frameworks",
+    "target_path": "vendor/qcom/opensource/display-frameworks",
+    "revision": "android-6.0"
+  },
+{
+   "remote": "omnirom",
+    "repository": "android_hardware_ril",
+    "target_path": "hardware/ril-caf",
+    "revision": "android-6.0-caf"
+  },
+{
+   "remote": "omnirom",
+    "repository": "vendor_qcom_opensource_dataservices",
+    "target_path": "vendor/qcom/opensource/dataservices",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_device_qcom_caf-sepolicy",
+    "target_path": "device/qcom/sepolicy",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_frameworks_av",
+    "target_path": "frameworks/av-caf",
+    "revision": "android-6.0-caf"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_frameworks_native",
+    "target_path": "frameworks/native-caf",
+    "revision": "android-6.0-caf"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_connectivity",
+    "target_path": "external/connectivity",
+    "revision": "android-6.0"
+}
+]
