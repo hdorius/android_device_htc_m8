@@ -58,5 +58,21 @@ TARGET_INIT_VENDOR_LIB := libinit_m8
 TARGET_RECOVERY_DEVICE_MODULES := libinit_m8
 TARGET_UNIFIED_DEVICE := true
 
+# TWRP Build Flags
+BOARD_RECOVERY_BLDRMSG_OFFSET := 2048
+TW_THEME := portrait_hdpi
+TW_INCLUDE_DUMLOCK := true
+TW_INCLUDE_CRYPTO := true
+TW_NO_EXFAT_FUSE := true
+TW_NO_SCREEN_BLANK := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TW_NO_USB_STORAGE := true
+TW_INCLUDE_JB_CRYPTO := false
+TW_NO_SCREEN_BLANK := true
+TW_EXCLUDE_ENCRYPTED_BACKUPS := true
+TW_INCLUDE_L_CRYPTO := true
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 # Inherit from the proprietary version
 -include vendor/htc/m8/BoardConfigVendor.mk
